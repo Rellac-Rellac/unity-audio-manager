@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0069c6e662a0ef40bf9a58559009e0f, type: 3}
+  m_Name: Sound Manager
+  m_EditorClassIdentifier: 
+  clipGroups:
+  - id: vo_test
+    mixer: {fileID: 8115677303997200963, guid: 7de97668cdb7c534abad931b9a332439, type: 2}
+    clips:
+    - {fileID: 8300000, guid: ca595236cd5fe064bba338490c437b7f, type: 3}
+  - id: music_test
+    mixer: {fileID: 1718039368928108469, guid: 7de97668cdb7c534abad931b9a332439, type: 2}
+    clips:
+    - {fileID: 8300000, guid: 5413cd8e2d88ffd44b3e0264e7821719, type: 3}
+  - id: vo_test_2
+    mixer: {fileID: 8115677303997200963, guid: 7de97668cdb7c534abad931b9a332439, type: 2}
+    clips:
+    - {fileID: 8300000, guid: bb24668e915d6b542a2dcf88c9e78749, type: 3}
+  - id: music_test_2
+    mixer: {fileID: 1718039368928108469, guid: 7de97668cdb7c534abad931b9a332439, type: 2}
+    clips:
+    - {fileID: 8300000, guid: 899260b1f80189644b0a567ae2f41342, type: 3}
