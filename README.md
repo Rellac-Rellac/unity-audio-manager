@@ -21,7 +21,7 @@ Create > Audio > Volume Manager
 
 To properly use the volume manager, you should call VolumeManager.Initialise() before any audio calls are made. This will read from PlayerPrefs and apply any volume adjustments needed.
 
-The Volume Manager ScriptableObject will have an array of "Volume Groups" listed. Each entry has an id specified to call whenever a volume adjustment is made and an array of mixer params to adjust that are associated with volume parameters. A default is supplied in the example, but it's important to expose the volume parameter of the mixer group you with to adjust and give it an appropriate name to reference in the mixer params of the volume group entries.
+The Volume Manager ScriptableObject will have an array of "Volume Groups" listed. Each entry has an id specified to call whenever a volume adjustment is made and an array of mixer params to adjust that are associated with volume parameters. A default is supplied in the example, but it's important to expose the volume parameter of the mixer group you wish to adjust and give it an appropriate name to reference in the mixer params of the volume group entries.
 
 To change the volume level of your listed mixer params, call SetVolumeLevel(string, float). It's recommended to keep this float a value from 0-1
 
